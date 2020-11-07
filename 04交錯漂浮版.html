@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>04交錯漂浮版</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    body{
+      padding: 100px 0;
+      background: linear-gradient(20deg, #3d5493, #1aa2a0) fixed center center /100% 100%;
+    }
+    .wrap{
+      width: 1200px;
+      margin: auto;
+    }
+    .item{
+      display: flex;
+      align-items: center;
+      margin-bottom: 70px;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    .item h2{
+      font-weight: 900;
+    }
+    .item p{
+      font-weight: 300;
+    }
+    .item .pic{
+      width: 55%;
+      flex-shrink: 0;
+    }
+    .item .pic img{
+      width: 100%;
+      vertical-align: middle;
+    }
+    .item .txt{
+      width: 55%;
+      flex-shrink: 0;
+      padding: 50px 30px;
+      box-sizing: border-box;
+      position: relative;
+      z-index: 1;
+    }
+    .item > :first-child{
+      margin-right: -10%;
+    }
+    .item:nth-child(1) .txt{
+      background-color: rgba(240, 174, 193, .8);
+    }
+    .item:nth-child(2) .txt{
+      background-color: rgba(42, 253, 208, .8);
+    }
+    .item:nth-child(3) .txt{
+      background-color: rgba(245, 201, 121, .8);
+    }
+    .item:nth-child(4) .txt{
+      background-color: rgba(149, 219, 214, .8);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <!-- item 1 -->
+    <div class="item">
+      <div class="pic">
+        <img src="https://picsum.photos/600/350?random=10" alt="">
+      </div>
+      <div class="txt">
+        <h2>萬寶路</h2>
+        <p>以及對你利潤同事，沒什麼證明身影房間會有親自刷新正式類別本。
+        </p>
+      </div>
+    </div>
+    <!-- item 2 -->
+    <div class="item">
+      <div class="txt">
+        <h2>萬大路</h2>
+        <p>版面自從不僅，貫徹畫面是一個頻道計劃解壓密碼手指，把握細胞。</p>
+      </div>
+      <div class="pic">
+        <img src="https://picsum.photos/600/350?random=20" alt="">
+      </div>
+    </div>
+    <!-- item 3 -->
+    <div class="item">
+      <div class="pic">
+        <img src="https://picsum.photos/600/350?random=30" alt="">
+      </div>
+      <div class="txt">
+        <h2>萬中路</h2>
+        <p>漫畫先後研發，不多發展輸入表示傳來貼布，溫度道德部落，選手。</p>
+      </div>
+    </div>
+    <!-- item 4 -->
+    <div class="item">
+      <div class="txt">
+        <h2>萬小路</h2>
+        <p>意識有些工程之下許多效果結束突破和平主板聊天外掛人類，影片。</p>
+      </div>
+       <div class="pic">
+        <img src="https://picsum.photos/600/350?random=40" alt="">
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
